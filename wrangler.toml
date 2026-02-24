@@ -1,0 +1,4 @@
+name = "openclaw-signals"
+main = "src/index.ts"
+compatibility_date = "2024-05-01"
+account_id = "0e1651bc459f3017e816ba2263e0807a"

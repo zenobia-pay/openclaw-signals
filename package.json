@@ -1,0 +1,17 @@
+{
+  "name": "openclaw-signals",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@hono/node-server": "^1.19.9",
+    "hono": "^4.12.2",
+    "wrangler": "^4.68.0"
+  }
+}
