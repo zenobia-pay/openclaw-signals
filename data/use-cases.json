@@ -1,0 +1,214 @@
+{
+  "lastUpdated": "2026-02-24T04:00:00Z",
+  "useCases": [
+    {
+      "category": "Faceless YouTube",
+      "description": "Autonomous video creation and channel management",
+      "examples": [
+        {
+          "account": "@bprintco",
+          "summary": "M4 Pro Mac Mini running faceless YT channel via Remotion + Pixabay + Chatterbox APIs. Zero human intervention.",
+          "link": "https://x.com/bprintco/status/2026114428672835871"
+        },
+        {
+          "account": "@shamanste8",
+          "summary": "AI-generated b-roll, video automation for faceless YouTube",
+          "link": "https://x.com/shamanste8/status/2024124734762598909"
+        }
+      ]
+    },
+    {
+      "category": "Multi-Agent Swarms",
+      "description": "Multiple specialized agents working in coordination",
+      "examples": [
+        {
+          "account": "@DuridSukar",
+          "summary": "8 agents running entire business operations via Telegram. Building apps, no manual prompting.",
+          "link": "https://x.com/DuridSukar/status/2026131000716038305"
+        },
+        {
+          "account": "@jdrhyne",
+          "summary": "15+ agent army: email cleanup, slide summaries, code refactor, ad optimization, trading UI, GA4/JIRA/GSC tools"
+        },
+        {
+          "account": "@iamtrebuh",
+          "summary": "4 specialized agents (Milo/Bob/Angela/Josh) with shared memory on VPS"
+        },
+        {
+          "account": "@itsjoaki",
+          "summary": "5+ agents with inter-agent chat + cyberpunk visualization dashboard"
+        }
+      ]
+    },
+    {
+      "category": "Polymarket Arbitrage",
+      "description": "Autonomous prediction market trading",
+      "examples": [
+        {
+          "account": "@Sara_kiu",
+          "summary": "+$400K in under a month. $5/sec, ~$7K/day on 5-min BTC Up/Down markets. Pure structural arbitrage when YES+NO < $1.",
+          "link": "https://x.com/Sara_kiu"
+        },
+        {
+          "account": "@Admuad",
+          "summary": "Full GitHub for Polymarket prediction agent system"
+        }
+      ]
+    },
+    {
+      "category": "Lead Generation",
+      "description": "Automated prospect research and outreach",
+      "examples": [
+        {
+          "account": "@BowTiedCrocodil",
+          "summary": "Background research → quick analysis → personalized email → auto follow-up. Hits redirect to inbox.",
+          "link": "https://x.com/BowTiedCrocodil/status/2025990912053039277"
+        },
+        {
+          "account": "@TechWith_Nova",
+          "summary": "6-agent local biz lead-gen agency: find companies without websites → auto demo sites → outreach → close sales"
+        },
+        {
+          "account": "@atyachin",
+          "summary": "Expert finder, sentiment analyzer, lead generation skills with 21% conversion rate"
+        }
+      ]
+    },
+    {
+      "category": "Hardware / Raspberry Pi",
+      "description": "Edge deployments and physical hardware integration",
+      "examples": [
+        {
+          "account": "@rakhmatuli79742",
+          "summary": "OpenClaw on Raspberry Pi with PIEEG brain-computer interface, audio, GPIO output",
+          "link": "https://x.com/rakhmatuli79742/status/2026095837185446162"
+        },
+        {
+          "account": "@nexgen_ruben",
+          "summary": "Pure local Ollama setups, zero API cost on Mac Mini"
+        },
+        {
+          "account": "@hmzsol",
+          "summary": "4× Mac Mini crypto scanning/backtesting/logging rigs"
+        },
+        {
+          "account": "@AlbertMoral",
+          "summary": "Raspberry Pi + Cloudflare, WHOOP health metrics"
+        }
+      ]
+    },
+    {
+      "category": "Home Automation",
+      "description": "Smart home control and IoT integration",
+      "examples": [
+        {
+          "account": "@embedded_iot",
+          "summary": "OpenClaw + Home Assistant integration",
+          "link": "https://x.com/embedded_iot/status/2026000441083843043"
+        },
+        {
+          "account": "@acevail_",
+          "summary": "Full homelab/SSH/Home Assistant + todo/Notes/shopping via Telegram"
+        },
+        {
+          "account": "@bangkokbuild",
+          "summary": "Garmin/Obsidian/GitHub/VPS integration, earthquake monitoring, traffic checks"
+        }
+      ]
+    },
+    {
+      "category": "On-Chain / DeFi",
+      "description": "Crypto trading, NFT minting, autonomous wallets",
+      "examples": [
+        {
+          "account": "@0xDeployer",
+          "summary": "Direct NFT minting via custom bankr wallet skill"
+        },
+        {
+          "account": "@yode3e",
+          "summary": "Solana wallet funding, coin launches, bundling, farming"
+        },
+        {
+          "account": "@Scampi_tech",
+          "summary": "Turns any OpenClaw skill into Pump.fun memecoin"
+        },
+        {
+          "account": "@Clawdex_On_Base",
+          "summary": "Autonomous Polymarket trader + self-learning on-chain agent"
+        }
+      ]
+    },
+    {
+      "category": "Business Operations",
+      "description": "Full business automation and workflows",
+      "examples": [
+        {
+          "account": "@nateliason",
+          "summary": "Gave agent 'Felix' $1k to autonomously launch/run its own business (site, product, X account)"
+        },
+        {
+          "account": "@willcheung",
+          "summary": "Runs literal 0-employee company via @calautobot"
+        },
+        {
+          "account": "@dreetje",
+          "summary": "Spam filtering, autonomous ordering (with MFA), 1Password, GitHub issues, trip cost splitting, voice calls, bloodwork → Notion"
+        },
+        {
+          "account": "@davekiss",
+          "summary": "Rebuilt entire website (Notion → Astro + DNS/Cloudflare) via Telegram while watching Netflix"
+        }
+      ]
+    },
+    {
+      "category": "Developer Tools",
+      "description": "Code generation, DevOps, and engineering workflows",
+      "examples": [
+        {
+          "account": "@georgedagg_",
+          "summary": "Voice-while-walking-dog DevOps: log review, fix, redeploy, PR on Hetzner"
+        },
+        {
+          "account": "@antonplex",
+          "summary": "'log' skill: thoughts → tasks → overnight sub-agent experiments → morning reviews → ADRs"
+        },
+        {
+          "account": "@chubes4",
+          "summary": "WordPress multisite empire automation on VPS"
+        }
+      ]
+    },
+    {
+      "category": "Research & Analysis",
+      "description": "Deep research, literature review, content analysis",
+      "examples": [
+        {
+          "account": "@andrewjiang",
+          "summary": "Pulled 4M X posts from 100 accounts in 24h for research"
+        },
+        {
+          "account": "@0xAlansari",
+          "summary": "Autonomous deep literature research with subagents, web search, PDF parser, LaTeX compiler"
+        }
+      ]
+    },
+    {
+      "category": "Memory & Context",
+      "description": "Persistent memory systems and context management",
+      "examples": [
+        {
+          "account": "@kaostyl",
+          "summary": "Memory hierarchy (session/daily/thematic/index semantic), parallel isolated batches, cron loops, validation"
+        },
+        {
+          "account": "@pseudotheos",
+          "summary": "Homebrew memory systems + auto-build pipelines"
+        },
+        {
+          "account": "@Claude_Memory",
+          "summary": "Persistent memory across sessions, auto-injected context. OpenClaw plugin."
+        }
+      ]
+    }
+  ]
+}

@@ -245,7 +245,7 @@ tr:hover {
 <header>
   <h1>🦞 OpenClaw Signals</h1>
   <p class="subtitle">High-signal builders in the OpenClaw/Moltbot ecosystem</p>
-  <p class="count">${accounts.length} accounts tracked</p>
+  <p class="count">${accounts.length} accounts tracked • <a href="/briefing" style="color:#2563eb">View Today's Briefing →</a></p>
 </header>
 <main>
 <table>
@@ -265,6 +265,146 @@ ${tableRows}
 </body>
 </html>`
   return c.html(html)
+})
+
+// Briefing route
+app.get('/briefing', (c) => {
+  const briefingHtml = `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenClaw Intelligence Briefing - Feb 24, 2026</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body {
+  background: #faf9f7;
+  color: #1a1a1a;
+  font-family: -apple-system, system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  min-height: 100vh;
+}
+.wrap { max-width: 800px; margin: 0 auto; padding: 32px 24px 64px; }
+header { margin-bottom: 32px; padding-bottom: 24px; border-bottom: 2px solid #e5e3df; }
+h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
+.meta { font-size: 14px; color: #666; }
+.nav { margin-top: 16px; }
+.nav a { color: #2563eb; text-decoration: none; font-size: 13px; }
+h2 { font-size: 20px; font-weight: 600; margin: 32px 0 16px; padding-bottom: 8px; border-bottom: 1px solid #eee; }
+h3 { font-size: 16px; font-weight: 600; margin: 24px 0 12px; }
+p { margin-bottom: 12px; }
+.highlight { background: #fef3c7; padding: 16px; border-radius: 8px; margin: 16px 0; border-left: 4px solid #f59e0b; }
+.case { background: #fff; border: 1px solid #e5e3df; border-radius: 8px; padding: 16px; margin: 12px 0; }
+.case-title { font-weight: 600; margin-bottom: 8px; }
+.case-who { font-family: monospace; color: #2563eb; font-size: 13px; }
+.case-desc { color: #444; font-size: 14px; margin-top: 8px; }
+table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid #eee; }
+th { background: #f5f3f0; font-weight: 500; }
+code { background: #f0f0f0; padding: 2px 6px; border-radius: 3px; font-size: 13px; }
+.warning { background: #fef2f2; border-left: 4px solid #ef4444; padding: 12px 16px; margin: 16px 0; border-radius: 4px; }
+footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #e5e3df; font-size: 12px; color: #888; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>🦞 OpenClaw Intelligence Briefing</h1>
+  <div class="meta">February 24, 2026 • 295+ signals collected</div>
+  <div class="nav"><a href="/">← Back to Signals</a></div>
+</header>
+
+<div class="highlight">
+<strong>Executive Summary:</strong> OpenClaw (ex-Clawdbot/Moltbot) is the viral open-source AI agent framework. People are building autonomous businesses, multi-agent swarms, on-chain trading systems, and hardware integrations — far beyond basic chat.
+</div>
+
+<h2>💰 Top Story: $400K Polymarket Arbitrage</h2>
+<div class="case">
+  <div class="case-who">@Sara_kiu</div>
+  <div class="case-desc">
+    <strong>+$400K in under a month</strong> • ~$5/sec • ~$7K/day<br>
+    Trades 5-min BTC Up/Down markets. Pure structural arbitrage: when YES + NO &lt; $1, guaranteed profit at settlement. 6,823 trades executed autonomously. No direction prediction — just math.
+  </div>
+</div>
+
+<h2>🎬 Faceless YouTube Channel</h2>
+<div class="case">
+  <div class="case-who">@bprintco</div>
+  <div class="case-desc">
+    M4 Pro Mac Mini running fully autonomous YouTube channel via Remotion + Pixabay + Chatterbox APIs. "I do nothing."
+  </div>
+</div>
+
+<h2>🤖 Multi-Agent Swarms</h2>
+<table>
+<tr><th>Builder</th><th>Setup</th><th>What They Do</th></tr>
+<tr><td>@DuridSukar</td><td>8 agents via Telegram</td><td>Entire business ops. "Not a single prompt from me today"</td></tr>
+<tr><td>@jdrhyne</td><td>15+ agent army</td><td>Email, slides, code, trading, GA4/JIRA/GSC</td></tr>
+<tr><td>@itsjoaki</td><td>5+ agents</td><td>Inter-agent chat + cyberpunk dashboard</td></tr>
+<tr><td>@kaostyl</td><td>Memory hierarchy</td><td>Session → daily → thematic → semantic search</td></tr>
+</table>
+
+<h2>📊 Lead Generation Agency</h2>
+<div class="case">
+  <div class="case-who">@TechWith_Nova</div>
+  <div class="case-desc">
+    6-agent system: Find companies without websites → Auto-generate demos → Outreach → Handle objections → Close sales
+  </div>
+</div>
+<div class="case">
+  <div class="case-who">@atyachin</div>
+  <div class="case-desc">21% conversion rate with OpenClaw lead gen skills</div>
+</div>
+
+<h2>🦾 Hardware Deployments</h2>
+<table>
+<tr><th>Builder</th><th>Setup</th></tr>
+<tr><td>@rakhmatuli79742</td><td>Raspberry Pi + PIEEG brain-computer interface</td></tr>
+<tr><td>@hmzsol</td><td>4× Mac Mini crypto scanning rigs</td></tr>
+<tr><td>@alghali</td><td>Local GLM 30B running 6-agent company</td></tr>
+</table>
+
+<h2>💼 Zero-Employee Companies</h2>
+<div class="case">
+  <div class="case-who">@willcheung / @calautobot</div>
+  <div class="case-desc">Literal 0-employee company run entirely by AI agents</div>
+</div>
+<div class="case">
+  <div class="case-who">@nateliason</div>
+  <div class="case-desc">Gave agent "Felix" $1K to autonomously launch business (site, product, X account)</div>
+</div>
+
+<h2>🔗 On-Chain Agents</h2>
+<table>
+<tr><th>Builder</th><th>What</th></tr>
+<tr><td>@0xDeployer</td><td>Direct NFT minting via wallet skill</td></tr>
+<tr><td>@yode3e</td><td>Solana wallet funding, coin launches</td></tr>
+<tr><td>@Scampi_tech</td><td>Turns skills into Pump.fun memecoins</td></tr>
+</table>
+
+<div class="warning">
+<strong>⚠️ Security Notes:</strong><br>
+• @Scobleizer: "OpenClaw isn't secure"<br>
+• @mhaeberli: WhatsApp banned him for TOS (chatting with own OpenClaw)<br>
+• Meta AI researcher's agent went rogue on email<br>
+<strong>Best practice:</strong> Use <code>trash</code> not <code>rm</code>, scoped OAuth, confirmation for destructive actions
+</div>
+
+<h2>📈 Market Signals</h2>
+<ul>
+<li><strong>Peter Steinberger acqui-hired by OpenAI</strong> — leading next-gen personal AI agents</li>
+<li>OpenClaw becoming independent open-source foundation</li>
+<li>@aixbt_agent: "500k users, agent economy scaling fast"</li>
+</ul>
+
+<footer>
+OpenClaw Intelligence Briefing • Generated 2026-02-24 05:00 EST
+</footer>
+</div>
+</body>
+</html>`
+  return c.html(briefingHtml)
 })
 
 export default app
